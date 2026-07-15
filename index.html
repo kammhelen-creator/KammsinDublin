@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Besucht uns in Dublin! 🇮🇪</title>
+<style>
+:root {
+--irish-green: #009A49;
+--irish-orange: #FF883E;
+--dark-grey: #2d3142;
+--light-bg: #f4f7f6;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: var(--light-bg);
+color: var(--dark-grey);
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+header {
+background: linear-gradient(135deg, var(--irish-green) 0%, #007a3a 100%);
+color: white;
+padding: 40px 20px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+
+header p {
+font-size: 1.2rem;
+opacity: 0.9;
+margin-top: 10px;
+}
+
+.container {
+max-width: 900px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+.intro-box {
+background: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+margin-bottom: 30px;
+}
+
+.intro-box h2 {
+color: var(--irish-green);
+}
+
+/* Kalender-Bereich */
+.calendar-container {
+background: white;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio für Responsive Design */
+height: 0;
+overflow: hidden;
+}
+
+.calendar-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: none;
+border-radius: 8px;
+}
+
+.rules-box {
+background: white;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+margin-top: 30px;
+text-align: left;
+}
+
+.rules-box h3 {
+color: var(--irish-orange);
+margin-top: 0;
+}
+
+footer {
+margin-top: 60px;
+padding: 20px;
+font-size: 0.9rem;
+color: #777;
+border-top: 1px solid #e0e0e0;
+}
+
+ul {
+padding-left: 20px;
+}
+
+li {
+margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Céad Míle Fáilte! 🍻</h1>
+<p>Willkommen auf unserem Dublin-Besuchskalender</p>
+</header>
+
+<div class="container">
+
+<div class="intro-box">
+<h2>Lust auf Guinness, Pubs und Klippen?</h2>
+<p>Wir freuen uns riesig, wenn ihr uns in Irland besucht! Damit wir nicht den Überblick verlieren und niemand auf dem Sofa stapeln muss, könnt ihr unten sehen, wann bei uns noch ein Bett frei ist.</p>
+<p><strong>Grün/Frei:</strong> Kommt rum! | <strong>Belegt:</strong> Da haben wir schon lieben Besuch.</p>
+</div>
+
+<!-- KALENDER START -->
+<!-- HINWEIS: Ersetze die 'src' URL unten mit deinem eigenen Google Calendar Embed Link! -->
+<div class="calendar-container">
+<iframe src="https://calendar.google.com/calendar/embed?src=fa17bf297c2e1336dade4d6d146afc70d03294a5a571b29ccf8583f149122053%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+<!-- KALENDER ENDE -->
+
+<div class="rules-box">
+<h3>📝 So funktioniert's:</h3>
+<ul>
+<li>Schaut im Kalender nach einem freien Zeitraum.</li>
+<li>Gebt uns kurz Bescheid (WhatsApp/Anruf), wann genau ihr kommen wollt.</li>
+<li>Sobald es fix ist, tragen wir euch ein und der Zeitraum blockiert sich für andere.</li>
+<li>Flüge buchen, Koffer packen, Regenjacke nicht vergessen! 🌧️</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>Erstellt mit ❤️ in Dublin | Prost!</p>
+</footer>
+
+</body>
+</html>
